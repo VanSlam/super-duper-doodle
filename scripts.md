@@ -1,10 +1,10 @@
 Below is a full, “GitHub-ready” package that includes all the scripts—with comments and usage instructions—and a complete plan that integrates our BusyBox emergency toolkit and even leverages **chattr** to help protect key files. This package is designed for rapid deployment during the competition, letting you harden your systems, detect and misdirect the Red Team, and preserve evidence.
 
-You can copy/paste all of this into a GitHub repository (for example, “PCDC_BlueTeam_Deception”) and then print the scripts (if printed copies are required) or load them from a USB drive.
+You can copy/paste all of this into a GitHub repository (for example, “_BlueTeam_Deception”) and then print the scripts (if printed copies are required) or load them from a USB drive.
 
 ---
 
-# PCDC Blue Team Deception & Hardening Toolkit
+#  Blue Team Deception & Hardening Toolkit
 
 This repository contains a set of scripts and instructions to be deployed in a rapid 30-minute window to fortify your RHEL systems against a persistent Red Team. The toolkit includes:
 
@@ -109,7 +109,7 @@ echo "[+] Red killer scan complete. Check $LOG for results."
 ### File: **harden.sh**
 ```bash
 #!/bin/bash
-# harden.sh — Harden RHEL for PCDC Blue Team
+# harden.sh — Harden RHEL for  Blue Team
 # Must be run as root.
 # Disables unneeded services, tightens SSH configuration, and locks out non-blueadmin users.
 
