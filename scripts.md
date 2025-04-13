@@ -347,6 +347,3 @@ echo "[+] Sneaky deploy complete."
 
 ---
 
-This entire repository, when deployed, should provide you with robust, layered defenses, plenty of red herrings to distract the Red Team, and comprehensive logs for reporting and scoring injects—all while ensuring your critical services remain unaffected and online.
-
-Let me know if you need any further modifications or additional deployable modules. Happy defending!
